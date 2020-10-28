@@ -10,7 +10,7 @@ Aplikasi sederhana ini adalah aplikasi yang dibuat tujuannya adalah untuk menjag
 
 ## How Does it Works?
 
-`DoorController.cs` Berfungsi untuk mengetahui keadaan pintu mobil apakah sudah terkunci atau belum terkunci.
+1. `DoorController.cs` Berfungsi untuk mengetahui keadaan pintu mobil apakah sudah terkunci atau belum terkunci.
 
 ```csharp
 namespace TheNextCar.Controller
@@ -27,7 +27,7 @@ namespace TheNextCar.Controller
         }
 ```
 
-`model Door.cs` Berfungsi untuk fungsi door closed dan locked.
+2. `model Door.cs` Berfungsi untuk fungsi door closed dan locked.
 
 ```csharp
 namespace TheNextCar.Model
@@ -70,7 +70,7 @@ namespace TheNextCar.Model
 }
 ```
 
-`OnDoorChanged` berfungsi untuk mengganti fungsi Door dan DoorController.
+3. `OnDoorChanged` berfungsi untuk mengganti fungsi Door dan DoorController.
 
 ```csharp
 public DoorController(OnDoorChanged callbackOnDoorChanged)
