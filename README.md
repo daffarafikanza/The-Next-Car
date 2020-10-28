@@ -28,7 +28,8 @@ namespace TheNextCar.Controller
         }
 ```
 
-2. `model Door.cs` Berfungsi untuk fungsi door closed dan locked.
+## 2. model Door.cs
+`model Door.cs` Berfungsi untuk fungsi door closed dan locked.
 
 ```csharp
 namespace TheNextCar.Model
@@ -71,7 +72,8 @@ namespace TheNextCar.Model
 }
 ```
 
-3. `OnDoorChanged` berfungsi untuk mengganti fungsi Door dan DoorController.
+## 3. OnDoorChanged
+`OnDoorChanged` berfungsi untuk mengganti fungsi Door dan DoorController.
 
 ```csharp
 public DoorController(OnDoorChanged callbackOnDoorChanged)
