@@ -10,17 +10,21 @@ Aplikasi sederhana ini adalah aplikasi yang dibuat tujuannya adalah untuk menjag
 
 ## How Does it Works?
 
-Setelah pendeklarasian pada `Item.cs`, dilanjutkan dengan penginisialisasian seluruh bahan sebagai media yang nantinya akan menjadi perwakilan dari variabel yang akan diinputkan oleh pengguna.
+`DoorController.cs` Berfungsi untuk mengetahui keadaan pintu mobil, apakah sudah terkunci atau belum terkunci.
 
 ```csharp
-public Item(int id, string title, int quantity, string type, double price)
+namespace TheNextCar.Controller
+{
+    class DoorController
+    {
+        private Door door;
+        private OnDoorChanged callbackOnDoorChanged;
+
+        public DoorController(OnDoorChanged callbackOnDoorChanged)
         {
-            this.id = id;
-            this.title = title;
-            this.quantity = quantity;
-            this.type = type;
-            this.price = price;
-            this.subtotal = subtotal;
+            this.callbackOnDoorChanged = callbackOnDoorChanged;
+            this.door = new Door();
+        }
 ```
 
 Selanjutnya semua bahan akan di buatkan semacam variabel perwakilan untuk input. Dibawah ini, terjadi proses dimana nilai dari subtotal diambil dari perkalian nilai price dengan quantity yang selanjutnya akan mewakili `getSubtotal()`
