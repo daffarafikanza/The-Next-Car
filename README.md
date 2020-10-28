@@ -1,6 +1,6 @@
 # The-Next-Car
 
-Aplikasi sederhana ini adalah aplikasi yang dibuat tujuannya adalah untuk menjaga keamanan pengemudi.
+Aplikasi ini tujuannya adalah untuk menjaga keamanan pengemudi agar bisa seleamat sampai tujuan.
 
 ## Scope & Functionalities
 
