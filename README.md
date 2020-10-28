@@ -10,7 +10,8 @@ Aplikasi sederhana ini adalah aplikasi yang dibuat tujuannya adalah untuk menjag
 
 ## How Does it Works?
 
-1. `DoorController.cs` Berfungsi untuk mengetahui keadaan pintu mobil apakah sudah terkunci atau belum terkunci.
+## 1. DoorController.cs
+`DoorController.cs` Berfungsi untuk mengetahui keadaan pintu mobil apakah sudah terkunci atau belum terkunci.
 
 ```csharp
 namespace TheNextCar.Controller
